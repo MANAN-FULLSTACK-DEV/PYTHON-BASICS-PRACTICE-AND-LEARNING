@@ -1,0 +1,21 @@
+A="FOOD DELIVERY APP "
+print(A.center(30))
+print("hello sir/mam what do you want to order :")
+a=input()
+# match a = "desert" 
+if (a=="desert"):
+    print('can you be more specific in that ?')
+    c=input()
+# match a=="fast food "
+elif(a=="fast food"):
+    print('can you be more specific in that ?')
+    c=input()
+# match a=="healthy food"
+elif(a=="healthy food"):
+    print('can you be more specific in that ?')
+    c=input()
+print("okay , can you give us your adress now :")
+d=input()
+print("okay",c,'will be delivered to',d,'in 10 minutes')
+B="thanks for using our app !"
+print(B.capitalize())
