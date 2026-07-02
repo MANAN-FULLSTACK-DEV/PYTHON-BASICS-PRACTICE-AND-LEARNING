@@ -1,0 +1,13 @@
+A="student related software enter the roll number of the student to get his or her info "
+print(A.center(30))
+dict={'123':'mayank','124':'harsh','125':'ayushmaan'}
+a=input()
+if a=='123':
+    print(f"name:{dict['123']}")
+    print("f in marks ,no seriousness towards studies , attendence=20%")
+elif a=='124':
+   print(f"name:{dict['124']}")
+   print("b in marks , good keep it up,attendence=70%")
+elif a=='125':
+    print(f"name:{dict['125']}")
+    print("c in marks , mind your sangat , attendence=75%")
