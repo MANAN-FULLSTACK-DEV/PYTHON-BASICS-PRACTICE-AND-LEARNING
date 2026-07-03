@@ -1,0 +1,12 @@
+print("enter the password to unlock the phone :")
+a=int(input())
+# match a 
+if (int(a)<1000 or int(a)>9999):
+    raise ValueError("password inorrect ")
+if a==3249:
+    print("password corrected")
+else:
+    print("not correct passsword phone shuts down for 25 seconds")
+if a==3249:
+    print("phone opens up")
+    print("time: 10:30")
