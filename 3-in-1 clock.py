@@ -19,8 +19,8 @@ while True :
             Time=time.strftime("%I:%M:%S")
             if b==Time:
                 for i in range(1,6):
+                    print("alaram rings⏰")
                     time.sleep(5)
-                    print("alaram rings⏰") 
                 break
             else:
                 time.sleep(1)
